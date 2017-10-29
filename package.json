@@ -1,12 +1,12 @@
 {
   "name": "mxchanger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tool for querying currency rates and convertion",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": { 
+  "bin": {
     "mxchanger": "bin/index.js"
   },
   "keywords": [],
