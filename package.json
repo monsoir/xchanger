@@ -1,14 +1,21 @@
 {
-  "name": "xchanger",
+  "name": "mxchanger",
   "version": "1.0.0",
-  "description": "",
+  "description": "A tool for querying currency rates and convertion",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": { 
+    "mxchanger": "bin/index.js"
+  },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Wen Yongyang <monwingyeung@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Monsoir/xchanger.git"
+  },
+  "license": "MIT",
   "dependencies": {
     "chalk": "^2.3.0",
     "cli-spinner": "^0.2.7",

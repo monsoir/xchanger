@@ -12,7 +12,7 @@ function animateSpinner(animated) {
     animated ? spinner.start() : spinner.stop(true);
 }
 
-program.version('0.0.1');
+program.version('1.0.0');
 
 program.command('show')
        .description('show rates based on -b option value')
