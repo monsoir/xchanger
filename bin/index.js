@@ -1,7 +1,9 @@
-const program = require('commander');
-const request = require('request');
-const Spinner = require('cli-spinner').Spinner;
-const chalk = require('chalk');
+#!/usr/bin/env node 
+
+var program = require('commander');
+var request = require('request');
+var Spinner = require('cli-spinner').Spinner;
+var chalk = require('chalk');
 
 const URL = 'http://api.fixer.io';
 const log = console.log;
